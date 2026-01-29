@@ -228,7 +228,7 @@ P_B_4: "Normal"
 
 ST_B_1: "Auth istifadəçi"
 ST_B_2: "Oynatma rejimi"
-ST_B_3: "Dil"
+ST_B_3: "🇦🇿 Dil"
 ST_B_4: "Səsvermə rejimi"
 ST_B_5: "Aktiv"
 ST_B_6: "Deaktiv"
@@ -322,3 +322,4 @@ gban_9: "{0} tərəfindən qoyulmuş ümumi qadağa qaldırıldı.\n\n{1} söhb�
 gban_10: "Heç bir istifadəçi bot tərəfindən açıq şəkildə qadağan edilməmişdir."
 gban_11: "Ümumi qadağan olunmuş istifadəçi siyahısı əldə edilir..."
 gban_12: "<b>Ümumi Qadağan İstifadəçilər:</b>\n\n"
+
