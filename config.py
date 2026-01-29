@@ -22,9 +22,9 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 # Chat id of a group for logging bot's activities
 LOG_GROUP_ID = getenv("LOG_GROUP_ID", None)
 
-API_URL = getenv("API_URL", 'https://api.nexgenbots.xyz') #youtube song url
-VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.nexgenbots.xyz')
-API_KEY = getenv("API_KEY", None) # youtube song api key, generate free key or buy paid plan from https://console.nexgenbots.xyz
+API_URL = getenv("API_URL", 'https://teaminflex.xyz') #youtube song url
+VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.teaminflex.xyz')
+API_KEY = getenv("API_KEY", 'INFLEX42825828D') # youtube song api key, generate free key or buy paid plan from https://console.nexgenbots.xyz
 
 
 # Get this value from @MissRose_Bot on Telegram by /id
@@ -91,23 +91,22 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = ["https://te.legra.ph/file/7757731c3e8b784b6a550.png", "https://te.legra.ph/file/58c34981e21180989887c.png", "https://te.legra.ph/file/a3a874be5095d9af685ac.png", "https://te.legra.ph/file/ac461a1889255424420ff.png", "https://te.legra.ph/file/74a8ba5270d0e27ac045c.png", "https://te.legra.ph/file/c0d0ee1452cbbbce116f4.png", "https://te.legra.ph/file/d373ae93502a5ae7fd403.png", "https://te.legra.ph/file/ab243bcad20965f637b5c.png", "https://te.legra.ph/file/fd9cc86239dd76d564d01.png", "https://te.legra.ph/file/c12a0b77178e2d2e27a50.png", "https://te.legra.ph/file/35177bbb5d5f07ad8e394.png", "https://te.legra.ph/file/700af8c3ee786a20aff35.png", "https://te.legra.ph/file/cbecd8af0446a422a95ca.png", "https://te.legra.ph/file/c3a0fde4abde25dd25e26.png", "https://te.legra.ph/file/7be8c2f9e093f695c4c6e.png", "https://te.legra.ph/file/ee10888e828bae3a6a0fc.png", "https://te.legra.ph/file/1b55fe681163188149fa4.png", "https://te.legra.ph/file/30ee4e96f64cd9abb69b6.png", "https://te.legra.ph/file/30b121ce5fa87360692ba.png", "https://te.legra.ph/file/f0617cc52008bd78f1a9d.png", "https://te.legra.ph/file/1cd1adc3eb9ac0a101610.png", "https://te.legra.ph/file/860c3dd149f91eb450d5a.png", "https://te.legra.ph"]
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/1o0til.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/wtptc2.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/1o0til.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/wtptc2.jpg"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/1o0til.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/1o0til.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/1o0til.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/7d573b68b803bf874aaad.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/1o0til.jpg"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/file/7d573b68b803bf874aaad.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/1o0til.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/7d573b68b803bf874aaad.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/7d573b68b803bf874aaad.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/7d573b68b803bf874aaad.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/wtptc2.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/wtptc2.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/wtptc2.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/wtptc2.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/wtptc2.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/wtptc2.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/wtptc2.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/wtptc2.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/wtptc2.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/wtptc2.jpg"
 
 
 
@@ -130,6 +129,7 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
 
 
 
