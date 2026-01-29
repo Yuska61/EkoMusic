@@ -11,7 +11,7 @@ import asyncio
 import aiohttp
 from pathlib import Path
 
-from py_yt import Playlist, VideosSearch
+from youtubesearchpython import Playlist, VideosSearch
 
 from InflexMusic import logger
 
